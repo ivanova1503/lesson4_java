@@ -9,6 +9,7 @@ public class Main {
         int y= scanner.nextInt();
         System.out.println("Введите число z:");
         int z= scanner.nextInt();
+        scanner.close();
 
         // Вариант1: деление без остатка
         int avg = (x+y+z)/3;    // так как справа int, то происходит деление без остатка, даже если avg была бы типа double
